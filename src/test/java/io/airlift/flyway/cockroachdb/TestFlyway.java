@@ -30,7 +30,7 @@ import static org.assertj.core.api.Assertions.assertThatThrownBy;
 public class TestFlyway
 {
     @Container
-    private final CockroachContainer cockroach = new CockroachContainer("cockroachdb/cockroach:v21.1.12");
+    private final CockroachContainer cockroach = new CockroachContainer("cockroachdb/cockroach:latest-v21.2");
 
     @Test
     public void testSimpleMigration()
